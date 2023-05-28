@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package books;
+package proto_book;
 
 service BookService {
     rpc AddBook(AddBookRequest) returns (AddBookResponse);

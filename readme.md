@@ -20,7 +20,7 @@ To get started with the Book Service proto, follow these steps:
 
 3. Build the gRPC code from the proto file. Use the following command to generate the code:
    ```bash
-   protoc --proto_path=./ --python_out=./ book.proto
+   protoc --proto_path=./ --python_out=./ proto_book/book.proto
    ```
 
 4. You can now use the generated code in your gRPC server and client applications. You can check [Book Shelf Django gRPC](https://github.com/mehedi-sust/book_shelf_django_gRPC.git)
